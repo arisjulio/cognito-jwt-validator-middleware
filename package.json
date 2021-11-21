@@ -1,0 +1,50 @@
+{
+  "name": "cognito-jwt-validator-middleware",
+  "version": "0.0.1",
+  "description": "Express middleware to validate cognito tokens",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "precommit": "pretty-quick --staged && eslint . --ext .ts",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arisjulio/cognito-jwt-validator-middleware.git"
+  },
+  "keywords": [
+    "expressjs",
+    "nodejs",
+    "cognito",
+    "jwt"
+  ],
+  "author": "@arisjulio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arisjulio/cognito-jwt-validator-middleware/issues"
+  },
+  "homepage": "https://github.com/arisjulio/cognito-jwt-validator-middleware#readme",
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "@types/jsonwebtoken": "^8.5.6",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.1",
+    "husky": "^7.0.4",
+    "jest": "^27.3.1",
+    "prettier": "^2.4.1",
+    "pretty-quick": "^3.1.2",
+    "ts-jest": "^27.0.7",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "node-cache": "^5.1.2"
+  }
+}
