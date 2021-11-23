@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`JwkParser getPem() should download and return a pem 1`] = `
+Array [
+  Array [
+    "https://cognito-idp.us-east-test.amazonaws.com/user_pool_test_id/.well-known/jwks.json",
+  ],
+]
+`;
+
+exports[`JwkParser getPem() should download and return a pem 2`] = `
+"-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApjdss8ZaDfEH6K6U7GeW
+2nxDqR4IP049fk1fK0lndimbMMVBdPv/hSpm8T8EtBDxrUdi1OHZfMhUixGaut+3
+nQ4GG9nM249oxhCtxqqNvEXrmQRGqczyLxuh+fKn9Fg++hS9UpazHpfVAFnB5aCf
+XoNhPuI8oByyFKMKaOVgHNqP5NBEqabiLftZD3W/lsFCPGuzr4Vp0YS7zS2hDYSc
+C2oOMu4rGU1LcMZf39p3153Cq7bS2Xh6Y+vw5pwzFYZdjQxDn8x8BG3fJ6j8TGLX
+QsbKH1218/HcUJRvMwdpbUQG5nvA2GXVqLqdwp054Lzk9/B/f1lVrmOKuHjTNHq4
+8wIDAQAB
+-----END PUBLIC KEY-----
+"
+`;
+
+exports[`JwkParser getPem() should return a pem from cache 1`] = `
+"-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApjdss8ZaDfEH6K6U7GeW
+2nxDqR4IP049fk1fK0lndimbMMVBdPv/hSpm8T8EtBDxrUdi1OHZfMhUixGaut+3
+nQ4GG9nM249oxhCtxqqNvEXrmQRGqczyLxuh+fKn9Fg++hS9UpazHpfVAFnB5aCf
+XoNhPuI8oByyFKMKaOVgHNqP5NBEqabiLftZD3W/lsFCPGuzr4Vp0YS7zS2hDYSc
+C2oOMu4rGU1LcMZf39p3153Cq7bS2Xh6Y+vw5pwzFYZdjQxDn8x8BG3fJ6j8TGLX
+QsbKH1218/HcUJRvMwdpbUQG5nvA2GXVqLqdwp054Lzk9/B/f1lVrmOKuHjTNHq4
+8wIDAQAB
+-----END PUBLIC KEY-----
+"
+`;
+
+exports[`JwkParser getPem() should return undefined on error 1`] = `
+Array [
+  Array [
+    "Can not get pem",
+    [Error: Test error],
+  ],
+]
+`;
