@@ -27,6 +27,7 @@
   "homepage": "https://github.com/arisjulio/cognito-jwt-validator-middleware#readme",
   "devDependencies": {
     "@types/debug": "^4.1.7",
+    "@types/express": "^4.17.13",
     "@types/jest": "^27.0.3",
     "@types/jsonwebtoken": "^8.5.6",
     "@types/jwk-to-pem": "^2.0.1",
@@ -48,6 +49,7 @@
   "dependencies": {
     "axios": "^0.24.0",
     "debug": "^4.3.2",
+    "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
     "jwk-to-pem": "^2.0.5",
     "node-cache": "^5.1.2"
